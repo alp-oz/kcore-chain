@@ -2,12 +2,12 @@
 
 Computes the Markov chain on **k-bounded partitions** (the set R_k) defined in:
 
-> *[your paper title here]*
+> The k-Plancherel measure and a Finite Markov Chain (with Svante Linusson), https://arxiv.org/abs/2512.24346
 
 ## Background
 
 States are k-bounded partitions in R_k (|R_k| = k!), indexed via the factorial code.
-Transition probabilities follow equation (3.3) of the paper:
+Transition probabilities follow the equation in Sect. 3.3 of the paper:
 
 ```
 P(λ, μ) = d_μ^(k) / ((|λ|+1) · d_λ^(k))
