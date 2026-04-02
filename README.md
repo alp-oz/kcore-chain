@@ -28,6 +28,13 @@ Default is k=3. Output is saved to `results/`:
 - `results/MC_<k>_frac.csv` — transition matrix as exact fractions
 - `results/MC_<k>_float.csv` — transition matrix as floats
 
+## Data
+
+Exact values obtained via separate computation for k = 3, 4, 5, 6 are available in the `Data/` folder:
+
+- `Data/transition_matrices/transition_matrix_k<k>.csv` — transition matrix M_k as exact fractions
+- `Data/stationary_distributions/stationary_distribution_k<k>.csv` — stationary distribution π_k as exact fractions
+
 ## Dependencies
 
 Python standard library only (`fractions`, `math`, `collections`, `csv`).
